@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+body{
+    font-family: 'Viaoda Libre', Times, serif;
+    margin: 0px;
+}
+
+header{
+    background-color: #E6E6E6;
+}
+
+header img{
+    height: 160px;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 0px;
+    text-align: center;
+}
+
+h2{
+    padding-left: 1%;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0em;
+}
+
+h1,h2{
+    background: #c4c4c4;
+    color: #005677;
+    letter-spacing: 3pt;
+    text-transform: uppercase;
+}
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+em{
+    font-weight: bold;
+}
+
+section{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+footer{
+    background-color: #005677;
+    align-content: center;
+}
+
+footer{
+    height: 37px;
+    position: relative;
+}
+
+footer p{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    left: 50%;
+    top: 0%;
+    -ms-transform: translateY(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+li ul{
+    display: inline-table;
+    padding-left: 2pt;
+}
+
+a{
+    padding-left: 20px;
+}
+
+/*
+Estilos específicos de la página sobremi.html
+*/
+article{
+    width: 800px;
+    margin: auto;
+}
+article p{
+    text-align: justify;
+}
+
+section a{
+    font-weight: bold;
+}
